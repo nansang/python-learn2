@@ -38,3 +38,21 @@ conn.close()//断开连接
 
 总共六步
 '''
+
+import pymysql
+
+con = pymysql.connect('localhost', 'root', '123456', 'myDB')
+
+cursor =con.cursor()
+
+cursor.execute('insert into product(name) values(23)')
+con.commit()
+row = cursor.fetchone()
+print(row)
+cursor.close()
+con.close()
+
+
+
+
+
