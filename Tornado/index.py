@@ -1,6 +1,15 @@
 #!/usr/bin/python3
 # coding:utf-8
 
+'''
+Created on:
+@author:
+Email:
+Description:
+Help:
+1.http://www.tornadoweb.cn/documentation/#_4
+2.http://www.cnblogs.com/wupeiqi/articles/5341480.html
+'''
 import tornado.ioloop
 import tornado.web
 
