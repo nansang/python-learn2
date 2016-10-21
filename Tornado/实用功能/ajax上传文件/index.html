@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="file" id = "img" />
+    <input type="button" onclick="UploadFile();">
+    <script>
+        
+        function UploadFile() {
+            var fileObj = document.getElementById("img").files[0];
+
+            var form = new FormData();
+            form.append("k1","v1");
+            form.append("fff", fileObj);
+
+            var xhr = new XMLHttpRequest();
+            xhr.open("post", '/index', true);
+            xhr.send(form);
+        }
+    </script>
+</body>
+</html>
