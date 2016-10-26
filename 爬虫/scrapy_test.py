@@ -40,3 +40,7 @@ twisted异步网络库来处理网络通讯  queuelib
 
 pyOpenSSL
 '''
+
+'''
+登录，验证码，ajax,多线程，分布式，服务器防爬虫
+'''
