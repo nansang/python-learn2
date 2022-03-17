@@ -1,11 +1,11 @@
-# python-learn2
+## python-learn2
 多进程，多线程，协程；socket; 数据库；web框架；堡垒机；装饰器；
 
 [python之路](http://www.cnblogs.com/wupeiqi/articles/4938499.html)
 
-###关于python的学习，总结的还是很全面的
+### 关于python的学习，总结的还是很全面的
 
-####目录
+#### 目录
 
 - Python之路【第一篇】：Python简介和入门 
 - Python之路【第二篇】：Python基础（一）
@@ -29,7 +29,7 @@
 
 更新中...
  
-####附录：
+#### 附录：
 - 计算器源码
 - 装饰器
 - 函数
